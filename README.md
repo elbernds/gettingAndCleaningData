@@ -44,7 +44,7 @@ Project Files
     detailed analysis of the data set
 -   run\_analysis.R : Contains the function run\_analysis which performs
     the actual analysis of the data
--   meanBasedOnActivtyAndSubjectDataSet.csv : The generated CSV file of
+-   meanBasedOnActivtyAndSubjectDataSet.txt : The generated text file of
     the final tidy data set
 
 Notes

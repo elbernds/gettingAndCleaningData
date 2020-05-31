@@ -34,7 +34,7 @@ The zip file was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2
 - 'README.md' and 'README.Rmd' : Contains a summary of the analysis performed and the lists the files created and used
 - 'CodeBook.md' and 'CodeBook.Rmd' : Contains the codebook for the detailed analysis of the data set
 - run_analysis.R : Contains the function run_analysis which performs the actual analysis of the data
-- meanBasedOnActivtyAndSubjectDataSet.csv : The generated CSV file of the final tidy data set
+- meanBasedOnActivtyAndSubjectDataSet.txt : The generated text file of the final tidy data set
 
 ## Notes
 - The variables of the final data set were updated by removing special chars for readability and simplicity.

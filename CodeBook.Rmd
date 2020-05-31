@@ -128,11 +128,11 @@ library(dplyr)
 meanBasedOnActivtyAndSubjectDataSet <- mergedMeanAndStdDevDataSet %>% group_by(subject, activityname) %>% summarise_all(mean)
 ```
 
-## Output the new tidy data set into a csv file
+## Output the new tidy data set into a text file
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 ## output to file the final data set containing the calculated data
-write.csv(meanBasedOnActivtyAndSubjectDataSet, "meanBasedOnActivtyAndSubjectDataSet.csv", row.names = FALSE)
-print("meanBasedOnActivtyAndSubjectDataSet.csv")
+write.table(meanBasedOnActivtyAndSubjectDataSet, file = "meanBasedOnActivtyAndSubjectDataSet.txt", sep = "\t", row.names = FALSE, col.names = TRUE)
+print("meanBasedOnActivtyAndSubjectDataSet.txt")
 ```
 ## Dimensions of final data set
 ```{r echo=FALSE, message=FALSE, warning=FALSE}

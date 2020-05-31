@@ -1015,10 +1015,10 @@ Train data set
 7. Create a new data set by calculating the mean of the data based on activity and subject
 ------------------------------------------------------------------------------------------
 
-Output the new tidy data set into a csv file
---------------------------------------------
+Output the new tidy data set into a text file
+---------------------------------------------
 
-    ## [1] "meanBasedOnActivtyAndSubjectDataSet.csv"
+    ## [1] "meanBasedOnActivtyAndSubjectDataSet.txt"
 
 Dimensions of final data set
 ----------------------------

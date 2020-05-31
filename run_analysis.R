@@ -68,7 +68,7 @@ run_analysis <- function() {
     meanBasedOnActivtyAndSubjectDataSet <- mergedMeanAndStdDevDataSet %>% group_by(subject, activityname) %>% summarise_all(mean)
     
     ## output to file the final data set containing the calculated data
-    write.csv(meanBasedOnActivtyAndSubjectDataSet, "meanBasedOnActivtyAndSubjectDataSet.csv", row.names = FALSE)
+    write.table(meanBasedOnActivtyAndSubjectDataSet, file = "meanBasedOnActivtyAndSubjectDataSet.txt", sep = "\t", row.names = FALSE, col.names = TRUE)
     
     meanBasedOnActivtyAndSubjectDataSet
     
